@@ -1,0 +1,52 @@
+#tablaJoc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    border: 10px rgb(238, 255, 0) solid;
+    background-color:navajowhite
+}
+
+#myPlanes, #enemyPlanes {
+    border: 10px rgb(251, 255, 0) solid;
+}
+
+.cell {
+    display:grid;
+    float:left;
+    margin: 1px;
+    padding-bottom: 0;
+    height: 50px;
+    width: 50px;
+    background-color:darkkhaki;
+}
+
+.blue {
+    background-color: blue;
+    background-size: 50px 50px;
+}
+
+.greenyellow {
+    background-color: greenyellow;
+    background-size: 50px 50px;
+}
+
+.cyan {
+    background-color: cyan;
+    background-size: 50px 50px;
+}
+
+.hit {
+    background-color: red;
+    background-size: 50px 50px;
+}
+
+.revealed {
+    background-color: grey;
+    background-size: 50px 50px;
+}
+
+.revealedEnemy {
+    background-color: rgb(241, 10, 153);
+    background-size: 50px 50px;
+}
